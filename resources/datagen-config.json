@@ -1,0 +1,17 @@
+{
+    "name": "DatagenSourceConnector_Pizza2",
+    "config": {
+        "connector.class": "DatagenSource",
+        "name": "PizzaOrderGenerator",
+        "kafka.auth.mode": "KAFKA_API_KEY",
+        "kafka.api.key": "GOUCHUID44SSUFCE",
+        "kafka.api.secret": "tRJYrd0s8GlZzCbxiaprIMvjYoaPq2zTv3VjePb7FYqg9xmnlp4nAc+/yIIYZKeS",
+        "kafka.topic": "pizza.orders",
+        "schema.context.name": "default",
+        "output.data.format": "JSON",
+        "json.output.decimal.format": "BASE64",
+        "quickstart": "PIZZA_ORDERS",
+        "max.interval": "1000",
+        "tasks.max": "1"
+    }
+}
